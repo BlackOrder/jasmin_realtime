@@ -1,5 +1,12 @@
 # Jasmin Realtime
 
+## Install
+Tested with python 3.11 only.
+#### PIP:
+```
+pip3 install -U jasmin-realtime
+```
+
 ## The default log path is `/var/log`. To change it, export:
 ```
 JASMIN_REALTIME_LOG_PATH=/var/log
