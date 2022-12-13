@@ -1,5 +1,11 @@
 # Jasmin Realtime
 
+Links Jasmin SMS Gateway's [https://github.com/jookies/jasmin] to MongoDB in realtime.
+offers three services:
+    - Sync configurations [`Smppccm`, `Httpccm`, `Group`, `User`, `Filter`, `MoRouter`, `MtRouter`, `MoInterceptor`, and `MtInterceptor`] from a MongoDB.
+    - Sync User balance with a specified MongoDB collection's key. Can be used to Sync multiple instances of Jasmin if pared with configurations sync.
+    - Log all sms to a MongoDB collection.
+
 ## Install
 Tested with python 3.11 only.
 #### PIP:
