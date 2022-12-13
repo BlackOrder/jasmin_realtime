@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jasmin_realtime"
+version = "0.0.10"
+authors = [
+  { name="BlackOrder", email="4302157+BlackOrder@users.noreply.github.com" },
+]
+description = "Links Jasmin SMS Gateway's to MongoDB in realtime."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [ "pexpect>=0.0.1", "python-dotenv", "jasmin-telnet" ]
+
+[project.urls]
+"Homepage" = "https://github.com/BlackOrder/jasmin_realtime"
+"Bug Tracker" = "https://github.com/BlackOrder/jasmin_realtime/issues"
