@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "jasmin_realtime"
-version = "0.0.12"
+version = "0.0.13"
 authors = [
   { name="BlackOrder", email="4302157+BlackOrder@users.noreply.github.com" },
 ]
@@ -16,7 +16,7 @@ classifiers = [
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Operating System :: OS Independent",
 ]
-dependencies = [ "pexpect>=0.0.1", "python-dotenv", "jasmin-telnet" ]
+dependencies = [ "jasmin-telnet", "twisted", "txamqp", "smpp.pdu3", "pymongo", "dnspython" ]
 
 [project.scripts]
 jasminrealtimed = "jasmin_realtime.console_entry:start"
