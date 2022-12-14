@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "jasmin_realtime"
-version = "0.0.11"
+version = "0.0.12"
 authors = [
   { name="BlackOrder", email="4302157+BlackOrder@users.noreply.github.com" },
 ]

@@ -130,7 +130,7 @@ MONGODB_BILL_BALANCE_KEY        =       **REQUIRED:NoDefault**
 ```
 #### Then run:
 ```
-jasminrealtimed --moduler
+jasminrealtimed --biller
 ```
 
 
@@ -148,5 +148,5 @@ MONGODB_LOGS_COLLECTION         =       **REQUIRED:NoDefault**
 ```
 #### Then run:
 ```
-jasminrealtimed --moduler
+jasminrealtimed --logger
 ```
