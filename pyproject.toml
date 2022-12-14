@@ -4,11 +4,11 @@ build-backend = "hatchling.build"
 
 [project]
 name = "jasmin_realtime"
-version = "0.0.10"
+version = "0.0.11"
 authors = [
   { name="BlackOrder", email="4302157+BlackOrder@users.noreply.github.com" },
 ]
-description = "Links Jasmin SMS Gateway's to MongoDB in realtime."
+description = "Links Jasmin SMS Gateway's [https://github.com/jookies/jasmin] to MongoDB in realtime"
 readme = "README.md"
 requires-python = ">=3.11"
 classifiers = [
@@ -17,6 +17,9 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [ "pexpect>=0.0.1", "python-dotenv", "jasmin-telnet" ]
+
+[project.scripts]
+jasminrealtimed = "jasmin_realtime.console_entry:start"
 
 [project.urls]
 "Homepage" = "https://github.com/BlackOrder/jasmin_realtime"

@@ -1,4 +1,5 @@
 # Jasmin Realtime
+##### Tested with python 3.11 only.
 
 Links Jasmin SMS Gateway's [https://github.com/jookies/jasmin] to MongoDB in realtime.
 offers three services:
@@ -9,11 +10,17 @@ offers three services:
 Each instance of the package can performs only one service. You will have to run each service separately. All settings are read from OS ENV when run from console. if you want to import it in you code, you can supply the settings on initialization.
 
 ## Install
-Tested with python 3.11 only.
-#### PIP:
+#### PYPI:
 ```
 pip3 install -U jasmin-realtime
 ```
+#### From Source:
+```
+git clone https://github.com/BlackOrder/jasmin_realtime.git
+cd jasmin_realtime
+pip3 install .
+```
+
 
 ## The default log path is `/var/log`. To change it, export:
 ```
@@ -104,7 +111,7 @@ MONGODB_MODULES_DATABASE        =       **REQUIRED:NoDefault**
 ```
 #### Then run:
 ```
-python3 -m jasmin_realtime --moduler
+jasminrealtimed --moduler
 ```
 
 
@@ -123,7 +130,7 @@ MONGODB_BILL_BALANCE_KEY        =       **REQUIRED:NoDefault**
 ```
 #### Then run:
 ```
-python3 -m jasmin_realtime --biller
+jasminrealtimed --moduler
 ```
 
 
@@ -141,5 +148,5 @@ MONGODB_LOGS_COLLECTION         =       **REQUIRED:NoDefault**
 ```
 #### Then run:
 ```
-python3 -m jasmin_realtime --logger
+jasminrealtimed --moduler
 ```
