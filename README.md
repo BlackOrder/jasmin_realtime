@@ -17,10 +17,10 @@ offers three services:
 Each instance of the package can performs only one service. You will have to run each service separately. All settings are read from OS ENV when run from console. if you want to import it in you code, you can supply the settings on initialization.
 
 ## Install
-#### PYPI:
-```
-pip3 install -U jasmin-realtime
-```
+#### ~~PYPI~~:
+
+<pre><code><del>pip3 install -U jasmin-realtime</del></code></pre>
+
 #### From Source:
 ```
 git clone https://github.com/BlackOrder/jasmin_realtime.git
