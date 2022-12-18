@@ -2,8 +2,9 @@
 
 Archived!!! 
 
-Moved to 
-[Jasmin-Mongo-Configuration](https://github.com/BlackOrder/jasmin_mongo_configuration)
+Broken into:
+1. [Jasmin-Mongo-Configuration](https://github.com/BlackOrder/jasmin_mongo_configuration)
+2. [Jasmin-Mongo-Logger](https://github.com/BlackOrder/jasmin_mongo_logger)
 
 ##### Tested with python 3.11 only.
 
