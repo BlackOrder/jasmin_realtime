@@ -1,4 +1,9 @@
 # Jasmin Realtime
+
+Archived!!!
+Moved to 
+[Jasmin-Mongo-Configuration](https://github.com/BlackOrder/jasmin_mongo_configuration)
+
 ##### Tested with python 3.11 only.
 
 Links [Jasmin SMS Gateway](https://github.com/jookies/jasmin)'s to MongoDB in realtime.
